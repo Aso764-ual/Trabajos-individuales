@@ -1,0 +1,70 @@
+# Trabajo Individual 1: Informática y representación de información
+
+Responda, editando este mismo archivo, los ejercicios que se incluyen a continuación
+
+
+**1.** Cuántos bits hay en 32 KB? ¿Y en 64 MB?  ¿Y en 4 GB?
+-- En 32 KB hay 256000 bits
+-- En 64 MB hay 512000000 bits
+-- En 4 Gb hay 32000000000 bits
+
+**2.**   (Completar) Durante muchas décadas, cada uno o dos años, la capacidad de los ordenadores se ha duplicado aproximadamente aproximadamente el doble. Esta notable tendencia suele denominarse ----- .
+Ley de Moore, llamada asi por Gordon Moore, confundador de Intel 1960.
+
+**3.** (Verdadero/Falso) La información de la unidad de memoria es persistente: se conserva incluso cuando se apaga el ordenador
+Verdadero
+
+**4.** (Completar) La mayoría de los ordenadores actuales tienen procesadores que implementan varios  procesadores en un único chip de circuito integrado. Estos procesadores pueden realizar muchas operaciones simultáneamente.
+Un procesador de doble núcleo tiene dos CPU, un procesador de cuatro núcleos tiene cuatro y unprocesador octa-core tiene ocho. Intel tiene algunos procesadores con hasta 72 núcleos
+
+**5.** Transformar a decimal los siguientes números:
+
+|Tipo          |        |       |Respuesta|Respuesta|
+|--------------|------- |-------|---------|---------|
+|binarios:     |10110   |0,10011|    46   |         |
+|octales:      |7354    |0,70612|   3820  |         |
+|hexadecimales:|F7398   |0,758FA| 1012632 |         |
+
+
+**6.** ¿Cuántos bits se necesitarían como mínimo para codificar un conjunto de 108 caracteres?
+Serian necesarios 7 bits
+
+**7.** (Completar) Un ----- es la abreviatura de "dígito binario", un dígito que puede asumir uno de dos valores y es el elemento de datos más pequeño de un ordenador. dos valores y es el dato más pequeño de un ordenador.
+
+RESPUESTA: bit
+
+**8.**  (Completar) Hoy en día, la mayor parte del código de los sistemas operativos de propósito general y de otros sistemas críticos para el rendimiento está escrito en  -----.
+
+RESPUESTA: lenguaje de programación C
+
+**9.**  (Rellenar) Uno de los objetivos clave de ----- es "escribir una vez y ejecutar en cualquier lugar" para permitir a los desarrolladores escribir programas que se ejecuten en una gran variedad de sistemas informáticos y dispositivos controlados por ordenador. controlados por ordenador.
+
+RESPUESTA: la plataforma Java
+
+**10.**  (Verdadero/Falso) R es el lenguaje de programación de ciencias de datos más popular.
+
+RESPUESTA: Verdadero
+
+
+**11.** ¿Puede un procesador central ejecutar directamente las instrucciones máquina almacenadas en un archivo de memoria secundaria? Justificar la respuesta.
+
+RESPUESTA:No, un procesador central (CPU) no puede ejecutar directamente las instrucciones máquina almacenadas en un archivo de memoria secundaria. Las instrucciones deben cargarse primero en la memoria principal (RAM) antes de que la CPU pueda procesarlas.
+
+
+**12.**  Describir brevemente las funciones principales de la unidad de control de un procesador central (CPU). ¿Qué información se almacena en el registro de instrucción (IR) y en el contador de programa (PC)? 
+
+RESPUESTA: La unidad de control de una CPU coordina y controla las operaciones de la CPU. Sus funciones principales incluyen decodificar instrucciones, controlar la ejecución secuencial, manejar transferencias de datos y gestionar interrupciones.
+
+El registro de instrucción (IR) almacena la instrucción actual que se está ejecutando, mientras que el contador de programa (PC) guarda la dirección de memoria de la siguiente instrucción a ejecutar.
+
+**13.**  Indicar las diferencias entre Compilador e interprete
+
+RESPUESTA: Un compilador traduce todo el código a lenguaje de máquina de una vez, produciendo un archivo ejecutable independiente, mientras que un intérprete ejecuta el código línea por línea sin generar un archivo ejecutable separado.  
+
+**14.** Indicar las diferencias entre  Software de sistema y software de aplicación
+
+RESPUESTA: El software de sistema proporciona una plataforma para que otros programas se ejecuten y gestiona recursos del sistema, mientras que el software de aplicación está diseñado para cumplir tareas específicas para el usuario final.  
+
+**15.** Indicar las diferencias entre BIT y BYTE
+
+RESPUESTA: Un bit es la unidad más pequeña de información, representando un 0 o un 1. Un byte consiste en 8 bits y se utiliza como la unidad básica de almacenamiento y procesamiento de datos en la computación.
